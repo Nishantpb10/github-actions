@@ -4,5 +4,3 @@ on: push
 jobs:
   workflow_reuse:
     uses: ./.github/workflows/workflow1.yml
-    
-    
