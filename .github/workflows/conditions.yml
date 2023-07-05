@@ -19,4 +19,4 @@ job-failed:
   needs: [job-1]
   if: failure()
   steps:
-  - run: echo job not executed
+  - run: echo job  not executed
