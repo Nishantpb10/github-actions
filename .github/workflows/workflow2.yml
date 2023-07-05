@@ -3,6 +3,6 @@ name: Reusing workflows
 on: push
 jobs:
   workflow_reuse:
-    uses: ./.github/workflow/workflow1.yml
+    uses: ./.github/workflows/workflow1.yml
     
     
